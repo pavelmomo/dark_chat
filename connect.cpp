@@ -183,7 +183,7 @@ Dialog_window_chats::Dialog_window_chats(QWidget* parent) : QDialog( parent )
 }
 
 void Dialog_window_chats::set_buttons( std::vector <QString> chat_names)
-{   this->btns->removeButton()
+{
     QPushButton* buf;
     for(unsigned long i = 0; i < chat_names.size(); ++i)
     {
