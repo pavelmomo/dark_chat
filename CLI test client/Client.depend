@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1679995403 source:/home/paul/Programm/Client/main.cpp
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string>
+	<unistd.h>
+	<stdio.h>
+	<vector>
+	<string.h>
+	<thread>
+	<signal.h>
+	<cstdlib>
+	<arpa/inet.h>
+
+1682890654 source:/home/paul/Programm_in_work/Client_in_work/main.cpp
+	<iostream>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string>
+	<unistd.h>
+	<stdio.h>
+	<vector>
+	<string.h>
+	<string>
+	<thread>
+	<ctime>
+	<signal.h>
+	<cstdlib>
+	<arpa/inet.h>
+	"command.h"
+
+1682719920 source:/home/paul/Programm_in_work/Client_in_work/command.cpp
+	"command.h"
+
+1682719860 /home/paul/Programm_in_work/Client_in_work/command.h
+	"string"
+	"string.h"
+
