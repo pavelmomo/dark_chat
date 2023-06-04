@@ -1,7 +1,0 @@
-<RCC>
-    <qresource prefix="/img">
-        <file>images/back.jpg</file>
-        <file>images/anim.gif</file>
-        <file>images/Regular.ttf</file>
-    </qresource>
-</RCC>
