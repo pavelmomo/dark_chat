@@ -313,7 +313,7 @@ void Connect::certain_btn_pressed_slot(int id)
         QString buf = dialog_window->get_buttons()->button(id)->text();
         cmd.set_data(buf.toStdString());
         send_command(cmd);
-        menu_window->get_ui()->text->setText("**************** Ожидание ответа ****************\n");
+        menu_window->get_ui()->text->setText("******************** Ожидание ответа ********************\n");
         menu_window->get_ui()->exit_session->show();
         menu_window->get_ui()->leave_from_account->close();
         menu_window->get_ui()->friends_list->setEnabled(0);

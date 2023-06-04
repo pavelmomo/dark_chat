@@ -74,12 +74,12 @@ void Menu::make_friend_request()
     emit connect_interface_signal(User_moves::make_friend_request);
 }
 
-void Menu::set_chat_dialogue_mode()
+void Menu::set_dialogue_mode()
 {
     ui->send_button->setEnabled(1);
     ui->send_pole->setEnabled(1);
     ui->text_pole->setEnabled(1);
-    ui->text->setText("*************Добро пожаловать в чат!************\n");
+    ui->text->setText("*************** Добро пожаловать в чат! ***************\n");
     ui->exit_session->show();
     ui->leave_from_account->close();
     ui->friends_list->setEnabled(0);
@@ -97,7 +97,7 @@ void Menu::menu_interface_for_connect_slot(char action, QMainWindow *window,QStr
             show();
             break;
         case session_accepted:
-            set_chat_dialogue_mode();
+            set_dialogue_mode();
             break;
         case new_message:
             print_message(data);

@@ -25,6 +25,7 @@ public:
 private:
     Ui::Menu *ui;
     void print_message(QString);
+    void set_dialogue_mode();
 public slots:
     void menu_interface_for_connect_slot(char action, QMainWindow *window = nullptr,QString data = "");
 
@@ -33,7 +34,6 @@ private slots:
     void leave_from_account();
     void get_friends_requests();
     void make_friend_request();
-    void set_chat_dialogue_mode();
     void set_menu_mode();
     void friends_list_button_clicked_slot();
 signals:

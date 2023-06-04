@@ -88,7 +88,6 @@
      <font>
       <family>Noto Looped Lao Cond ExBd</family>
       <pointsize>24</pointsize>
-      <weight>75</weight>
       <bold>true</bold>
       <underline>true</underline>
      </font>
@@ -138,6 +137,11 @@
         <height>301</height>
        </rect>
       </property>
+      <property name="font">
+       <font>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
      </widget>
     </widget>
    </widget>
@@ -156,7 +160,6 @@
     <property name="font">
      <font>
       <pointsize>11</pointsize>
-      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -176,8 +179,16 @@
       <height>51</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(141, 148, 147);</string>
+    </property>
+    <property name="placeholderText">
+     <string notr="true">Ваше сообщение</string>
     </property>
    </widget>
    <widget class="QPushButton" name="exit_session">
