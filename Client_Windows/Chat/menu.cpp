@@ -79,7 +79,7 @@ void Menu::set_dialogue_mode()
     ui->send_button->setEnabled(1);
     ui->send_pole->setEnabled(1);
     ui->text_pole->setEnabled(1);
-    ui->text->setText("*************** Добро пожаловать в чат! ***************\n");
+    ui->text->setText("************** Добро пожаловать в чат! **************\n");
     ui->exit_session->show();
     ui->leave_from_account->close();
     ui->friends_list->setEnabled(0);
