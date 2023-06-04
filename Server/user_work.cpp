@@ -265,7 +265,19 @@ void User_work::communication_request_processing(Command &command)
     }
 
     data_mutex->unlock();
-    command.set_data(sender.get_login());
+    std::string data_login = sender.get_login();
+    for (int i = 14; i > -1; --i)
+    {
+        if (data_login[i] == ' ')
+        {
+            data_login.pop_back();
+        }
+        else
+        {
+            break;
+        }
+    }
+    command.set_data(data_login);
     command.set_action(communication_request_from_server);
     send_command(command,reciever.get_usr_socket());
 

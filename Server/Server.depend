@@ -557,3 +557,110 @@
 1685815615 source:/home/paul/Dark_Chat/Server/user_work.cpp
 	"user_work.h"
 
+1685882133 source:/home/paul/Repositories/dark_chat/Server/command.cpp
+	"command.h"
+
+1685882133 /home/paul/Repositories/dark_chat/Server/command.h
+	"string"
+	"string.h"
+
+1685882133 source:/home/paul/Repositories/dark_chat/Server/database_handle.cpp
+	"database_handle.h"
+
+1685882133 /home/paul/Repositories/dark_chat/Server/database_handle.h
+	<pqxx/pqxx>
+	<mutex>
+	<iostream>
+
+1685882133 source:/home/paul/Repositories/dark_chat/Server/main.cpp
+	<iostream>
+	"server_handle.h"
+
+1685882133 /home/paul/Repositories/dark_chat/Server/server_handle.h
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<algorithm>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<sys/epoll.h>
+	<fcntl.h>
+	<queue>
+	<map>
+	<string>
+	<sys/eventfd.h>
+	<thread>
+	<condition_variable>
+	<mutex>
+	"internal_classes.h"
+	"server_work.h"
+	"queue_safe.h"
+	"command.h"
+
+1685882133 /home/paul/Repositories/dark_chat/Server/internal_classes.h
+	<vector>
+	"queue_safe.h"
+	"command.h"
+	<map>
+	<cstring>
+	<atomic>
+	<iostream>
+	<thread>
+	<unistd.h>
+	<sys/socket.h>
+	<cstring>
+
+1685882133 /home/paul/Repositories/dark_chat/Server/queue_safe.h
+	<queue>
+	<iostream>
+	<mutex>
+	<shared_mutex>
+	<queue>
+	<condition_variable>
+	<thread>
+
+1685882133 /home/paul/Repositories/dark_chat/Server/server_work.h
+	<iostream>
+	<map>
+	<vector>
+	<thread>
+	<condition_variable>
+	<sys/socket.h>
+	"internal_classes.h"
+	"user.h"
+	"queue_safe.h"
+	"user_work.h"
+	"command.h"
+
+1685882133 /home/paul/Repositories/dark_chat/Server/user.h
+	"internal_classes.h"
+	<string>
+
+1685882133 /home/paul/Repositories/dark_chat/Server/user_work.h
+	"internal_classes.h"
+	"database_handle.h"
+	"user.h"
+	"command.h"
+	<sys/socket.h>
+	<map>
+	<set>
+	<mutex>
+	<vector>
+	<string>
+	<iostream>
+
+1685882133 source:/home/paul/Repositories/dark_chat/Server/server_handle.cpp
+	"server_handle.h"
+
+1685882133 source:/home/paul/Repositories/dark_chat/Server/server_work.cpp
+	"server_work.h"
+
+1685882133 source:/home/paul/Repositories/dark_chat/Server/user.cpp
+	"user.h"
+
+1685909902 source:/home/paul/Repositories/dark_chat/Server/user_work.cpp
+	"user_work.h"
+
